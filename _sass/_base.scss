@@ -65,19 +65,11 @@ a, table.table a {
 
 .post-description {
   margin-bottom: 2rem;
-<<<<<<< HEAD
-  font-size: 0.875rem;
-  a {
-    color: inherit;
-    &:hover {
-      color: var(--global-theme-color);
-=======
   a {
     color: inherit;
     font-size: 0.875rem;
     &:hover {
       color: $theme-color;
->>>>>>> 2190f82b (Improve publication styles)
       text-decoration: none;
     }
   }
@@ -308,11 +300,7 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
   h1 {
-<<<<<<< HEAD
-    color: var(--global-theme-color);
-=======
     color: $theme-color;
->>>>>>> 2190f82b (Improve publication styles)
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
@@ -355,13 +343,8 @@ footer.sticky-bottom {
           }
         }
         .award {
-<<<<<<< HEAD
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-=======
           color: $theme-color !important;
           border: 1px solid $theme-color;
->>>>>>> 2190f82b (Improve publication styles)
         }
       }
       .title {
@@ -382,25 +365,15 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
-<<<<<<< HEAD
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-=======
           color: $text-color;
           border: 1px solid $text-color;
->>>>>>> 2190f82b (Improve publication styles)
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-<<<<<<< HEAD
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-=======
             color: $theme-color;
             border-color: $theme-color;
->>>>>>> 2190f82b (Improve publication styles)
           }
         }
       }
@@ -434,17 +407,10 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-<<<<<<< HEAD
         border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
-=======
-        border: dashed 1px white;
-      }
-      div.abstract.hidden.open {
-        border-color: $grey-color;
->>>>>>> 2190f82b (Improve publication styles)
       }
     }
   }
