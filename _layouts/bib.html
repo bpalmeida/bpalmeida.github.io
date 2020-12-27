@@ -72,11 +72,18 @@
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
+      {% endif %}        
+      {% if entry.pages %}
+        , pp. {{entry.pages}}
+      {% endif %}
+      {% if entry.series %}        
+        , {{entry.series}}
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        , {{entry.year}}
       {% endif %}
-      </div>
+  
+      </div>      
     {% endif %}
 
     <div class="links">
