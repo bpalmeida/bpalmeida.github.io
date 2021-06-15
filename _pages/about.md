@@ -11,9 +11,9 @@ profile:
   align: right
   image: bernardo.jpg
   address: >
-    <p>Dept. of Informatics - 6.3.29</p>
-    <p>Campo Grande, 1749-016 </p>
-    <p>Lisboa, Portugal</p>
+    <p>Dept. of Informatics - 6.3.29</br>
+       Campo Grande, 1749-016</br>
+       Lisboa, Portugal</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
