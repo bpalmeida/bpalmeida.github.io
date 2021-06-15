@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-08-05
 inline: true
 ---
 
-A simple inline announcement.
+Our article ["Polymorphic lambda calculus with context-free session types"](/publications/), has been accepted at [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation).

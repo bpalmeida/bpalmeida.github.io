@@ -1,8 +1,15 @@
 Vasconcelos:
-  url: http://di.fc.ul.pt/~vv/
+   - firstname: ["Vasco", "V.", "V. T.", "Vasco T."]
+     url: http://di.fc.ul.pt/~vv/
 
 Mordido:
-  url: http://www.di.fc.ul.pt/~amordido/
+  - firstname: ["Andreia", "A."]
+    url: http://www.di.fc.ul.pt/~amordido/
 
 Casal:
-  url: http://www.di.fc.ul.pt/~fcasal/
+  - firstname: ["Filipe", "F."]
+    url: http://www.di.fc.ul.pt/~fcasal/
+
+Thiemann:
+  - firstname: ["Peter", "P."]
+    url: http://www2.informatik.uni-freiburg.de/~thiemann/
