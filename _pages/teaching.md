@@ -7,6 +7,12 @@ nav: true
 nav_order: 5
 ---
 
+2023/2024
+
+   - Spring term <br/> 
+   [Technology and Information Systems](https://www.eshte.pt/)
+   **- Teaching assistant** 
+
 2020/2021
 
    - Fall term <br/> 
