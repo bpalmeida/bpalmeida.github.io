@@ -83,19 +83,12 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-<<<<<<< HEAD
-=======
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
->>>>>>> ee8cb458 (updating)
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-<<<<<<< HEAD
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
-=======
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -105,7 +98,6 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
->>>>>>> ee8cb458 (updating)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -295,15 +287,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-enable_google_analytics:    false
-enable_panelbear_analytics: false
-enable_mansory:             true
-enable_math:                true
-enable_tooltips:            false
-enable_darkmode:            true
-show_social_icons:          false
-=======
+
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
@@ -318,8 +302,6 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
->>>>>>> ee8cb458 (updating)
 
 # -----------------------------------------------------------------------------
 # Library versions
