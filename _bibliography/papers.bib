@@ -68,6 +68,44 @@
 }
 
 
+@article{AlmeidaDS22,
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {Doct. Symp.'22},
+  title = {Context-free Session Types: Theory and Practice},
+  journal = {Doctoral Symposium@ECOOP},
+  year = {2022},
+  author = {Bernardo Almeida},
+  abstract = {Communication plays a significant role in concurrent software
+                  systems. The concurrent agents that communicate with each
+                  other may exchange a massive number of messages and, to avoid
+                  unexpected behaviours, these messages should follow a protocol
+                  capable of accounting for their order and form. Session types
+                  offer mechanisms to model these interactions while ensuring
+                  safety properties like the absence of communication errors and
+                  deadlocks. They describe structured interaction of processes
+                  on heterogeneously typed communication channels.                  
+              Regular session types impose that protocols must have a
+                  tail-recursive structure. On the other hand, context-free
+                  session types, proposed by Thiemann and Vasconcelos, drop the
+                  tail recursion restriction, thus allowing recursion to occur
+                  at any part of the type. The resulting system bears enhanced
+                  session types, capable of defining protocols that describe the
+                  serialisation of non-regular structures. Moreover,
+                  context-free session types can define complex protocols like
+                  serialising a tree-like structure without resorting to
+                  techniques like higher-order channels.                  
+              Our work is based on FreeST, a concurrent programming language
+                  based on a core functional language, with primitives for
+                  creating new threads, new channels and communicating on those
+                  channels. In FreeST, channels are bidirectional and governed
+                  by context-free session types. With this work, we aim to
+                  increase the usability of FreeST by introducing impredicative
+                  polymorphism, by adding higher-order kinds and type operators,
+                  and by adopting algorithms that provide local type inference.
+             }
+}
+
 
 
 @inproceedings{DBLP:conf/tacas/AlmeidaMV20,
@@ -180,7 +218,7 @@
   author = {Bernardo Almeida and Andreia Mordido and Vasco T. Vasconcelos},
   title     = {Uma linguagem de programa{\c{c}}{\~a}o com escolhas mistas em tipos de sess{\~a}o},
   year = {2019},  
-  booktitle = {Atas do 11{\textdegree} Simp{\'o}sio de Inform{\'a}tica},
+  booktitle = {Atas do 11º Simp{\'o}sio de Inform{\'a}tica},
   abstract = { A abstra{\c{c}}{\~a}o e formaliza{\c{c}}{\~a}o da
                   comunica{\c{c}}{\~a}o inerente a sistemas de software {\'e}
                   fundamental para a confiabilidade de sistemas concorrentes.
@@ -198,7 +236,7 @@
   author = {Bernardo Almeida and Vasco T. Vasconcelos},
   title     = {Uma linguagem de programa{\c{c}}{\~a}o com tipos de sess{\~a}o
                   independentes do contexto},
-  booktitle = {Atas do 10{\textdegree} Simp{\'o}sio de Inform{\'a}tica},
+  booktitle = {Atas do 10º Simp{\'o}sio de Inform{\'a}tica},
   year = {2018},  
   abstract = { Os sistemas de software distribu{\'i}dos t{\^e}m uma
                   comunica{\c{c}}{\~a}o bastante intensiva onde o elevado
@@ -218,6 +256,41 @@
                   troca de mensagens cujos protocolos s{\~a}o definidos por
                   tipos de sess{\~a}o livres do contexto. }
 }
+
+@inproceedings{inforum22,
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {INFORUM'22},
+  author       = {Diogo Barros and
+                  Andreia Mordido and
+                  Vasco T. Vasconcelos and
+                  Bernardo Almeida},
+  editor       = {M{\'a}rio Freire and Matilde Pato},
+  title        = {Sharing the Stateful World},
+  booktitle    = {INFORUM@Guarda, Portugal},
+  pages        = {27--38},
+  year         = {2022},
+  abstract = { Writing concurrent programs with races is cumbersome and may
+                  dictate the fall of any software. The difficulty in writing
+                  concurrent programs often originates from complex
+                  communication patterns among different parties. FreeST was born
+                  with the purpose of simplifying the specification and
+                  implementation of communicating systems through the use of
+                  session types, supported by a powerful type checker.
+                  Unfortunately, linear session types are bound to a 1-to-1
+                  communication which means that cooperation between more than
+                  two processes is neither simple nor efficient. In this work, we
+                  propose shared context-free session types to overcome this
+                  restriction. This newly implemented feature opens up a new
+                  world of use cases, which include shared state,
+                  producer-consumer architectures, and FreeST's standard IO.
+                  This paper uses a store as a running example to show how
+                  shared channels improve FreeST's usability in comparison to
+                  linear channels, and how it maintains expressiveness without
+                  complicating code. }
+}
+
+
 
 @thesis{almeida2018linguagem,
   abbr= {M.Sc. Thesis},
