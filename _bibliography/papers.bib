@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @inproceedings{DBLP:journals/corr/abs-2304-06396,
   selected  = true,
   bibtex_show={true},
@@ -65,6 +66,81 @@
                   results on typing preservation, progress, and a
                   characterization of erroneous processes.}
 }
+
+@article{AlmeidaDS22,
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {Doct. Symp'22},
+  title = {Context-free Session Types: Theory and Practice},
+  journal = {Doctoral Symposium@ECOOP},
+  year = {2022},
+  author = {Bernardo Almeida},
+  abstract = {Communication plays a significant role in concurrent software
+                  systems. The concurrent agents that communicate with each
+                  other may exchange a massive number of messages and, to avoid
+                  unexpected behaviours, these messages should follow a protocol
+                  capable of accounting for their order and form. Session types
+                  offer mechanisms to model these interactions while ensuring
+                  safety properties like the absence of communication errors and
+                  deadlocks. They describe structured interaction of processes
+                  on heterogeneously typed communication channels.
+                  
+              Regular session types impose that protocols must have a
+                  tail-recursive structure. On the other hand, context-free
+                  session types, proposed by Thiemann and Vasconcelos, drop the
+                  tail recursion restriction, thus allowing recursion to occur
+                  at any part of the type. The resulting system bears enhanced
+                  session types, capable of defining protocols that describe the
+                  serialisation of non-regular structures. Moreover,
+                  context-free session types can define complex protocols like
+                  serialising a tree-like structure without resorting to
+                  techniques like higher-order channels.
+                  
+              Our work is based on FreeST, a concurrent programming language
+                  based on a core functional language, with primitives for
+                  creating new threads, new channels and communicating on those
+                  channels. In FreeST, channels are bidirectional and governed
+                  by context-free session types. With this work, we aim to
+                  increase the usability of FreeST by introducing impredicative
+                  polymorphism, by adding higher-order kinds and type operators,
+                  and by adopting algorithms that provide local type inference.
+             }
+}
+
+
+@inproceedings{inforum22
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {INFORUM'22},
+  author       = {Diogo Barros and
+                  Andreia Mordido and
+                  Vasco T. Vasconcelos and
+                  Bernardo Almeida},
+  editor       = {M\'ario Freire and Matilde Pato},
+  title        = {Sharing the Stateful World},
+  booktitle    = {INFORUM@Guarda, Portugal},
+  pages        = {27--38},
+  year         = {2022},
+  abstract = { Writing concurrent programs with races is cumbersome and may
+                  dictate the fall of any software. The difficulty in writing
+                  concurrent programs often originates from complex
+                  communication patterns among diﬀerent parties. FreeST was born
+                  with the purpose of simplifying the specification and
+                  implementation of communicating systems through the use of
+                  session types, supported by a powerful type checker.
+                  Unfortunately, linear session types are bound to a 1-to-1
+                  communication which means that cooperation between more than
+                  two processes is neither simple nor eﬃcient. In this work, we
+                  propose shared context-free session types to overcome this
+                  restriction. This newly implemented feature opens up a new
+                  world of use cases, which include shared state,
+                  producer-consumer architectures, and FreeST's standard IO.
+                  This paper uses a store as a running example to show how
+                  shared channels improve FreeST's usability in comparison to
+                  linear channels, and how it maintains expressiveness without
+                  complicating code. }
+}
+
 
 @inproceedings{DBLP:conf/tacas/AlmeidaMV20,
   selected  = true,
@@ -168,6 +244,50 @@
                   process and runtime system.}
 }
 
+@inproceedings {inforum19
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {INFORUM'22},
+  author = {Bernardo Almeida and Andreia Mordido and Vasco T. Vasconcelos},
+  title = {Uma linguagem de programação com tipos de sessão independentes do contexto},
+  year = {2019},  
+  booktitle = {Atas do 11º Simpósio de Informática},
+  abstract = { A abstração e formalização da comunicação inerente a sistemas de
+                  software é fundamental para a confiabilidade de sistemas
+                  concorrentes. Neste trabalho propomos um sistema de tipos que
+                  enriquece os tipos de sessão, permitindo escolha mistas entre
+                  input e output. Na linguagem propomos, FreestMC, os processos
+                  podem, a cada momento, decidir entre ler e escrever num dado
+                  canal. Um sistema tipos de sessão garante ainda assim que os
+                  processos seguem o protocolo. }
+}
+
+
+
+@inproceedings {inforum18
+  selected  = false,
+  bibtex_show={true},
+  abbr      = {18},
+  author = {Bernardo Almeida and Vasco T. Vasconcelos},
+  title = {Uma linguagem de programação com tipos de sessão independentes do contexto},
+  year = {2018},  
+  booktitle = {Atas do 10º Simpósio de Informática}
+  abstract = { Os sistemas de software distribuídos têm uma comunicação bastante
+                  intensiva onde o elevado número de mensagens trocadas entre
+                  processos tende a tornar a codificação dos mesmos bastante
+                  complexa. Os tipos de sessão foram propostos para responder a
+                  esta necessidade, permitindo definir protocolos na forma de
+                  tipos que representam "interações corretas" do sistema e que
+                  garantem propriedades tais como a inexistência de erros na
+                  comunicação e de situações de impasse. Os tipos de sessão
+                  tradicionais são descritos por linguagens regulares,
+                  permitindo, por exemplo, a definição de protocolos na forma de
+                  lista mas não em forma de árvore. Neste artigo apresenta-se
+                  uma linguagem de programação concorrente, explicitamente
+                  tipificada, onde os processos comunicam exclusivamente por
+                  troca de mensagens cujos protocolos são definidos por tipos de
+                  sessão livres do contexto. }
+}
 
 @thesis{almeida2018linguagem,
   abbr= {M.Sc. Thesis},
