@@ -2,9 +2,10 @@
 ---
 
 @article{DBLP:journals/jlap/AlmeidaMV26,
-  author       = {Bernardo Almeida and
-                  Andreia Mordido and
-                  Vasco T. Vasconcelos},
+  selected  = true,
+  bibtex_show={true},
+  abbr      = {JLAMP'26},
+  url_custom = {https://doi.org/10.1016/j.jlamp.2025.101083},
   title        = {Kind inference for the FreeST programming language},
   journal      = {J. Log. Algebraic Methods Program.},
   volume       = {148},
@@ -14,19 +15,22 @@
   doi          = {10.1016/J.JLAMP.2025.101083},
   timestamp    = {Wed, 15 Oct 2025 19:23:18 +0200},
   biburl       = {https://dblp.org/rec/journals/jlap/AlmeidaMV26.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {We address the problem of local type inference for a language based on System F with context-free session types. We present an algorithm that leverages the bidirectional type checking approach to propagate type information, enabling first class polymorphism while addressing the intricacies brought about by the sequential composition operator and type equivalence. The algorithm improves the language's usability by eliminating the need for type annotations at type application sites.}
 }
 
 @inproceedings{DBLP:journals/corr/abs-2505-20855,
+  selected  = true,
+  bibtex_show={true},
+  abbr      = {PLACES'25},
+  url_custom = {https://doi.org/10.4204/EPTCS.420.1},
   author       = {Bernardo Almeida and
                   Andreia Mordido and
                   Vasco T. Vasconcelos},
   editor       = {Farzaneh Derakhshan and
                   Jan Hoffmann},
   title        = {Local Type Inference for Context-Free Session Types},
-  booktitle    = {Proceedings 16th International Workshop on Programming Language Approaches
-                  to Concurrency and Communication-cEntric Software, PLACES@ETAPS 2025,
-                  Hamilton, Canada, 4th May 2025},
+  booktitle    = {PLACES@ETAPS, Hamilton, Canada},
   series       = {{EPTCS}},
   volume       = {420},
   pages        = {1--11},
@@ -36,7 +40,8 @@
   doi          = {10.4204/EPTCS.420.1},
   timestamp    = {Thu, 20 Aug 2026 16:09:49 +0200},
   biburl       = {https://dblp.org/rec/journals/corr/abs-2505-20855.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {FreeST is a message-passing concurrent functional programming language where messages are exchanged on channels governed by context-free session types. Thus far, FreeST only distinguishes two kinds of types: arbitrary types and session types. We introduce explicit channel closing operators — close and wait — together with their corresponding types — Close and Wait — which call for a third kind of types, that of channel types. Type variable declaration is usually annotated with its kind. We provide a sound and complete algorithm for kind inference and prove that it terminates yielding the most general kind.}
 }
 
 @inproceedings{DBLP:journals/corr/abs-2304-06396,
